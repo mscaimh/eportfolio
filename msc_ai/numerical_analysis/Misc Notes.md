@@ -1,5 +1,6 @@
-* Discriptive statistics
-* Inferencial statistics
+## Discriptive and inferencial statistics
+
+[Reference image](img/image.png)
 
 ## Scales of measurement
 * Nominal scales
@@ -11,8 +12,6 @@
 * Ratio
     - Money
     - Has a "true zero" point
-
-![alt text](img/image.png)
 
 ## Measures of location
 
@@ -35,10 +34,8 @@
 
 * Variance
     - Used in conjunction with the Mean.
-
-    ![alt text](img/image-1.png)
-
-    ![alt text](img/image-2.png)
+    - [Population mean formula](img/image-1.png)
+    - [Sample mean formula](img/image-2.png)
 
 * Standard Deviation;
     - Used in conjunction with the Mean.
