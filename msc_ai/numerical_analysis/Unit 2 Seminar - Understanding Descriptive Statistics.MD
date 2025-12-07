@@ -36,4 +36,5 @@ In order to find out the relationship between volatility in the stock market and
 
 Based on the data from Table 4, even though from the mean values, there is not a big difference between the two countries' variables (high trust and low trust), the case growth rate of countries with high trust is positive 0.0420, while the case growth rate of countries with low trust is 0,0674, in which the latter is higher than the former, indicating that countries with high trust are more likely to have less stock market’s volatility.
 
-
+## References
+Dong, Y. (2023) “Descriptive Statistics and Its Applications,” *Highlights in Science, Engineering and Technology*, 47, pp. 16–23. Available at: https://doi.org/10.54097/HSET.V47I.8159.
