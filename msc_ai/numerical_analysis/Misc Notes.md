@@ -3,14 +3,10 @@
 [Reference image](img/image.png)
 
 ## Scales of measurement
-* Nominal scales
-    - Gender, colour, relegion
-* Ordinal
-    - Customer satisfaction
-* Interval
-    - Temperature
-* Ratio
-    - Money
+* Nominal scales - Gender, colour, relegion
+* Ordinal - Customer satisfaction
+* Interval - Temperature
+* Ratio - Money
     - Has a "true zero" point
 
 ## Measures of location
