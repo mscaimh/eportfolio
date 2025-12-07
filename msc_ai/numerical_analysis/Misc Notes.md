@@ -37,3 +37,7 @@
     - Used in conjunction with the Mean.
     - 68% within +/- 1 SD of mean
     - 95% within +/- 2 SD of mean
+
+## Probabilities
+
+In general, if there are N **symmetrical outcomes**, the probability of any given one of them occurring is taken to be 1/N.
