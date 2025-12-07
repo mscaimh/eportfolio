@@ -34,8 +34,8 @@
 
 * Variance
     - Used in conjunction with the Mean.
-    - [Population mean formula](img/image-1.png)
-    - [Sample mean formula](img/image-2.png)
+    - [Population variance formula](img/image-1.png)
+    - [Sample variance formula](img/image-2.png)
 
 * Standard Deviation;
     - Used in conjunction with the Mean.
