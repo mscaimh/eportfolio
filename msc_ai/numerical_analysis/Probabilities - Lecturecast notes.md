@@ -3,8 +3,10 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 * Relative frequencies - If we tossed a coin millions of times, we would expect the proportion of tosses that came up heads to be pretty close to 1/2. As the number of tosses increases, the proportion of heads still approaches 1/2. Therefore, we can say that the probability of a head is 1/2.
 
 * In case of **independent events**
-    - `P(A and B) = P(A) x P(B)`
+    - `P(A and B) = P(A) x P(B)` - indepednent events
+    - `P(A and B) = P(B|A) x P(A)` - dependent events
     - `P(A or B) = P(A) + P(B) - P(A and B)`
+    - `P(A|B) = P(A and B) / P(B)`
 
 ## Discrete & Continuous Distribution
 * A discrete distribution means that X can assume one of a countable (usually finite) number of values.
@@ -54,3 +56,17 @@ The most common probability distribution for describing a continuous random vari
 This is often concerned with the amount of time until some specific event occurs.
 
 * the amount of time, in months a car battery lasts.
+
+## Types of sampling
+
+* Biased samples
+    - Convenience sample - only includes people who are easy to reach
+	- Voluntary response sample - consists of people that have chosen to include themselves
+
+* Unbiased sample
+	- Simple random sampling
+	- Stratified random sampling
+	- Multistage sampling
+
+Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: https://www.youtube.com/watch?v=pTuj57uXWlk (Accessed: December 8, 2025).
+
