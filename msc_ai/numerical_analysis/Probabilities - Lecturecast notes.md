@@ -70,3 +70,10 @@ This is often concerned with the amount of time until some specific event occurs
 
 Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: https://www.youtube.com/watch?v=pTuj57uXWlk (Accessed: December 8, 2025).
 
+## Probability distributions
+
+<img width="1454" height="1523" alt="image" src="https://github.com/user-attachments/assets/b876a1a7-fcf4-4c41-a6bb-e076d5c2f5f7" />
+
+Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s guide to data analysis for natural scientists*. John Wiley & Sons, Inc.
+
+
