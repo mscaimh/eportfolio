@@ -14,16 +14,16 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
     - Time to respond to a question.
     - Probabilities of continuous random variables (x) are defined as the area under the curve of its Probability Distribution Function.
 
-### Descrete probability distribution
+## Descrete probability distribution
 
-##### Binomial
+#### Binomial
 * Fixed number of events, e.g. yes or no, 'success' and 'failure'.
 * Events are independent.
 * Events can be repeated using identical conditions.
 
 <img width="1680" height="390" alt="image" src="https://github.com/user-attachments/assets/11c98af3-4e1c-4a9d-aaff-b4937ce98d72" />
 
-#### Poisson
+### Poisson
 The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
 
 * The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
@@ -31,26 +31,26 @@ The Poisson distribution can be used to calculate the probabilities of various n
 
     <img width="1680" height="390" alt="image" src="https://github.com/user-attachments/assets/7285b614-36b0-46cd-9d59-f78351d78dd3" />
 
-#### Hypergeometric
+### Hypergeometric
 The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
 
 <img width="1680" height="444" alt="image" src="https://github.com/user-attachments/assets/0e5ebbbb-5b15-4fae-9f6d-d49f731b5989" />
 
 p is the probability of obtaining k successes. k is the number of "successes" in the population. x is the number of "successes" in the sample. Uppercase N is the size of the population. Lowercase n is the number sampled. kCx is the number of combinations k things taken x at a time.
 
-### Continuous probability distribution
+## Continuous probability distribution
 
-#### The Uniform Distribution
+### The Uniform Distribution
 Sometimes also known as a rectangular distribution, is a distribution that has constant probability or in other words, are evenly distributed over a given interval.
 
 * parts on an assembly line that arrive at the same exact intervals.
 
-#### The Normal Distribution
+### The Normal Distribution
 The most common probability distribution for describing a continuous random variable is the normal probability distribution, with a bell-shaped curve.
 
 * stock returns, rolling dice, flipping a coin or the height of a population.
 
-#### The Exponential Distribution
+### The Exponential Distribution
 This is often concerned with the amount of time until some specific event occurs.
 
 * the amount of time, in months a car battery lasts.
