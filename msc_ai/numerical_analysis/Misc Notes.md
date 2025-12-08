@@ -61,6 +61,23 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 * Events are independent.
 * Events can be repeated using identical conditions.
 
-[Reference image](img/image.png)
 <img width="1680" height="390" alt="image" src="https://github.com/user-attachments/assets/11c98af3-4e1c-4a9d-aaff-b4937ce98d72" />
+
+#### Poisson
+The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
+
+* The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
+    - Independent Random Events could include calls coming to a Call Centre or cars coming to a roundabout.
+
+    <img width="1680" height="390" alt="image" src="https://github.com/user-attachments/assets/7285b614-36b0-46cd-9d59-f78351d78dd3" />
+
+#### Hypergeometric
+The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
+
+<img width="1680" height="444" alt="image" src="https://github.com/user-attachments/assets/0e5ebbbb-5b15-4fae-9f6d-d49f731b5989" />
+
+p is the probability of obtaining k successes. k is the number of "successes" in the population. x is the number of "successes" in the sample. Uppercase N is the size of the population. Lowercase n is the number sampled. kCx is the number of combinations k things taken x at a time.
+
+
+
 
