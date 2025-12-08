@@ -79,4 +79,17 @@ Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s g
 * Three-sigma rule - 68-95-99.7 rule
 The three‐sigma rule of thumb states that c. 68% of the observations fall within one standard deviation, c. 95% of all observations fall within two standard deviations and c. 99.7% of the observations reside within three standard deviations.
 
-`t = [sample mean - assumed population mean] / [(sample standard deviation) / (sq. root of sample size)]`
+```
+      sample mean - assumed population mean
+      -------------------------------------
+            sample standard deviation
+  t =		-------------------------
+			         /-----
+                    v   n
+```
+```
+                 /-------------
+  Variance =    /  p - (1 - p)
+               /   -----------
+              v         n
+```
