@@ -76,4 +76,5 @@ Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: http
 
 Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s guide to data analysis for natural scientists*. John Wiley & Sons, Inc.
 
-
+* Three-sigma rule - 68-95-99.7 rule
+The three‐sigma rule of thumb states that c. 68% of the observations fall within one standard deviation, c. 95% of all observations fall within two standard deviations and c. 99.7% of the observations reside within three standard deviations.
