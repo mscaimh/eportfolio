@@ -13,10 +13,10 @@
 
 * Mode - The number that occurs most frequently.
 
-* Median - Middle number in a list of numbers that has been ordered.
-    - `(n + 1) / 2`
+* Median - Middle number in a list of numbers that has been ordered - `(n + 1) / 2`
 
 * 1st quartile - `(n + 1) * 1/4`
+
 * 3rd quartile - `(n + 1) * 3/4`
 
 ## Measures of variability
