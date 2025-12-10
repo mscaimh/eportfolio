@@ -14,10 +14,10 @@
 * Mode - The number that occurs most frequently.
 
 * Median - Middle number in a list of numbers that has been ordered.
-    - (n + 1) / 2
+    - `(n + 1) / 2`
 
-* 1st quartile - (n + 1) * 1/4
-* 3rd quartile - (n + 1) * 3/4
+* 1st quartile - `(n + 1) * 1/4`
+* 3rd quartile - `(n + 1) * 3/4`
 
 ## Measures of variability
 
@@ -37,5 +37,7 @@
 
 * Standard Deviation;
     - Used in conjunction with the Mean.
-    - 68% within +/- 1 SD of mean
-    - 95% within +/- 2 SD of mean
+    - Three-sigma rule
+        - 68% of the observations within +/-1 SD of mean
+        - 95% of the observations within +/-2 SD of mean
+        - 99.7% of the observations within +/-3 SD of mean
