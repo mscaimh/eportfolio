@@ -1,21 +1,21 @@
-`install.packages(“package_ name")` - install package
+`install.packages("package_ name")` - install package
 
 `library(package_ name)` - load package
 
 `help("function")` or `?function` - shows information about the function
 
 **foreign**
-`read_sav(“dataset.sav”)` - to import SPSS files
-`read_dta(“dataset.dta”)` - to import Stata files
-`read_csv(“dataset.csv”)` - to import csv files
+`read_sav("dataset.sav")` - to import SPSS files
+`read_dta("dataset.dta")` - to import Stata files
+`read_csv("dataset.csv")` - to import csv files
 
 **haven**
-`read.sav(“dataset.sav”)` - to import SPSS files
-`read.dta(“dataset.dta”)` - to import Stata files
-`read.csv(“dataset.csv”)` - to import csv files
+`read.sav("dataset.sav")` - to import SPSS files
+`read.dta("dataset.dta")` - to import Stata files
+`read.csv("dataset.csv")` - to import csv files
 
 **readr**
-`read_csv (“dataset.csv”)` #- to import csv files
+`read_csv ("dataset.csv")` #- to import csv files
 
 `save(dataset, file = "data/dataset.rda")` - to save R files
 
