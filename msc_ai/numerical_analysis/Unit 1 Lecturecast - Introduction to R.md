@@ -1,6 +1,6 @@
 `install.packages("package_name")` - install package
 
-`library(package_ name)` - load package
+`library(package_name)` - load package
 
 `help("function")` or `?function` - shows information about the function
 
