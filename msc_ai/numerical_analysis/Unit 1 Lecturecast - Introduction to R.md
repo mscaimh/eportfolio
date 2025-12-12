@@ -1,4 +1,4 @@
-`install.packages("package_ name")` - install package
+`install.packages("package_name")` - install package
 
 `library(package_ name)` - load package
 
