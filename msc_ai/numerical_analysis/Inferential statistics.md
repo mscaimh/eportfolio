@@ -23,7 +23,7 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 * Events are independent.
 * Events can be repeated using identical conditions.
 
-[Binomial formula](img/image-3.png)
+[Binomial formula](img/binomial-formula.png)
 
 ### Poisson
 The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
@@ -31,12 +31,12 @@ The Poisson distribution can be used to calculate the probabilities of various n
 * The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
     - Independent Random Events could include calls coming to a Call Centre or cars coming to a roundabout.
 
-[Poisson formula](img/image-4.png)
+[Poisson formula](img/poisson-formula.png)
 
 ### Hypergeometric
 The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
 
-[Hypergeometric formula](img/image-5.png)
+[Hypergeometric formula](img/hypergeometric-formula.png)
 
 p is the probability of obtaining k successes. k is the number of "successes" in the population. x is the number of "successes" in the sample. Uppercase N is the size of the population. Lowercase n is the number sampled. kCx is the number of combinations k things taken x at a time.
 
@@ -72,7 +72,7 @@ Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: http
 
 ## Probability distributions
 
-[Continous and descrete distributions](img/image-6.png) - Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s guide to data analysis for natural scientists*. John Wiley & Sons, Inc.
+[Continous and descrete distributions](img/continuous-and-discrete-distributions.png) - Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s guide to data analysis for natural scientists*. John Wiley & Sons, Inc.
 
 ```
       sample mean - assumed population mean
