@@ -10,6 +10,8 @@ Rather, "statistics" refers to a range of techniques and procedures for analysin
 * Interval - Temperature
 * Ratio - Money - Has a "true zero point"
 
+[Reference image](img/summary-of-data-types-and-scales.png)
+
 ## Measures of location
 
 * Mean - Average that describes the center of the frequency description.
