@@ -1,11 +1,14 @@
+Statistics are not just facts and figures. They are more than that.
+
+Rather, "statistics" refers to a range of techniques and procedures for analysing, interpreting, displaying, and making decisions based on data.
+
 [Reference image](img/image.png)
 
 ## Scales of measurement
-* Nominal scales - Gender, colour, relegion
+* Nominal scales - Gender, colour, religion
 * Ordinal - Customer satisfaction
 * Interval - Temperature
-* Ratio - Money
-    - Has a "true zero" point
+* Ratio - Money - Has a "true zero point"
 
 ## Measures of location
 
