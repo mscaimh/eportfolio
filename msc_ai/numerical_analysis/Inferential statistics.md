@@ -18,7 +18,7 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 
 ## Descrete probability distribution
 
-#### Binomial
+### Binomial
 * Fixed number of events, e.g. yes or no, 'success' and 'failure'.
 * Events are independent.
 * Events can be repeated using identical conditions.
