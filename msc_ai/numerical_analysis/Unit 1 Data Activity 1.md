@@ -1,3 +1,7 @@
+```
+> df <- read.csv("C:/Users/mahah/RStudio/Covid19 India (Jan 20 - Mar 20).csv", header=TRUE)
+```
+
 ## Task 1.1: Basic Dataset Information
 
 How many total variables (columns) are in this dataset?
