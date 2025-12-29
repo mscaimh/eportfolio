@@ -45,3 +45,32 @@ Implicit and explicit coercion
 When using `read.table()` function from base R, make sure to set `StringAsFactors = FALSE`. Readr packages `read_csv()` doesn't do this
 
 `colnames(dataframe)[colunames(dataframe) == "oldcolname"] <- "newcolname"` - Renames column
+
+### dplyr and tidyr
+
+The `tidyverse` package is an "umbrella-package" that installs `tidyr`, `dplyr`, and several other packages useful for data analysis, such as `ggplot2`, `tibble`, etc.
+* `dplyr` is a package for making tabular data manipulation easier
+* `tidyr` enables converting between different data formats for plotting and analysis
+
+#### dplyr
+
+`select()` - Subset columns (`select(dataframe, SAMPLEID, DP)` selects SAMPLEID and DP columns and `select(dataframe, -CHROM)` selects all columns minus the CHROM column)
+
+`filter()` - Subset rows on conditions (`filter(dataframe, SAMPLEID == "SRR2584863")` filters all rows where `SAMPLEID` is `"SRR2584863"`)
+
+`mutate()` - Create new columns by using information from other columns (`mutate(DEC = QUAL/10)` creates anew column `DEC` based on existing `QUAL` column)
+
+`group_by()` and `summarize()` - Create summary statistics on grouped data (`dataframe %>% group_by(sample_id) %>% summarize(n_observations = n())` groups rows based on `sample_id` value and derives count using the `n()` function under a new `n_observations` column)
+
+`count()` - Count discrete values
+
+`dataframe <- as_tibble(dataframe)` - Converts into a friendlier `tibble` format
+
+**Pipes** in R look like `%>%` and are made available via the `magrittr` package, which is installed as part of `dplyr`
+```
+dataframe %>%
+  filter(SAMPLEID == "SRR2584863") %>%
+  select(SAMPLEID, DP)
+```
+
+**split-apply-combine** paradigm - split the data into groups, apply some analysis to each group, and then combine the results
