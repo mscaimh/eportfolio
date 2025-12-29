@@ -36,7 +36,7 @@ $p = \frac{e^{-\mu} \mu^x}{x!}$
 ### Hypergeometric
 The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
 
-$\frac{(_kC_x) ( _{(N-k)}C _{(n-x)})}{_NC_n}$
+$p = \frac{(_kC_x) ( _{(N-k)}C _{(n-x)})}{_NC_n}$
 
 p is the probability of obtaining k successes. k is the number of "successes" in the population. x is the number of "successes" in the sample. Uppercase N is the size of the population. Lowercase n is the number sampled. kCx is the number of combinations k things taken x at a time.
 
