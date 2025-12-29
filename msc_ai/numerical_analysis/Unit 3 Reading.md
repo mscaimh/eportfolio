@@ -103,3 +103,7 @@ ggplot(data = variants, aes(x = POS, y = MQ, color = sample_id)) +
   theme_bw() +
   theme(panel.grid = element_blank())
 ```
+
+### knitr
+
+`knitr` allows creating a document that is a mixture of text and some chunks of code. When the document is processed by `knitr`, chunks of R code will be executed, and graphs or other results inserted.
