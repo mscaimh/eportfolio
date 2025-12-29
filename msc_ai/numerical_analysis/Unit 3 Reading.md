@@ -72,3 +72,34 @@ dataframe %>%
 ```
 
 **split-apply-combine** paradigm - split the data into groups, apply some analysis to each group, and then combine the results
+
+### ggplot2
+
+`ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) +  <GEOM_FUNCTION>()`
+
+`ggplot(data = dataframe, aes(x = POS, y = DP))` - Plots with `POS` column as x-axis and `DP` column as y-axis
+
+`geom_point()` for scatter plots, dot plots, etc.
+`geom_boxplot()` for, well, boxplots!
+`geom_line()` for trend lines, time series, etc.
+
+The + sign used to add new layers must be placed at the end of the line containing the *previous* layer. This is because R assumes that the end of a line is the end of a command, unless you tell it otherwise. So, if the + sign is added at the beginning of the next line containing the new layer, `ggplot2` will not add that new layer and will return an error message.
+
+`labs(x = "Base Pair Position", y = "Read Depth (DP)")` - Adds descriptions
+
+`scale_y_log10()` - Uses log10 scale for y-axis
+
+`facet_grid(. ~ sample_id)` - Enables *faceting* - split one plot into multiple plots based on a factor included in the dataset; uses format `rows ~ columns` and a `.` can be used as placeholder for either `rows` or `columns` value.
+
+`theme_bw()` - Sets theme, in this case setting background to white. The complete list of themes is available at https://ggplot2.tidyverse.org/reference/ggtheme.html. `theme_minimal()` and `theme_light()` are popular, and `theme_void()` can be useful as a starting point to create a new hand-crafted theme.
+
+The different stages can be combined like:
+```
+ggplot(data = variants, aes(x = POS, y = MQ, color = sample_id)) +
+  geom_point() +
+  labs(x = "Base Pair Position",
+       y = "Mapping Quality (MQ)") +
+  facet_grid(sample_id ~ .) +
+  theme_bw() +
+  theme(panel.grid = element_blank())
+```
