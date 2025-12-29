@@ -23,7 +23,7 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 * Events are independent.
 * Events can be repeated using identical conditions.
 
-[Binomial formula](img/binomial-formula.png)
+$P(x) = \frac{N!}{x!(N - x)!} \pi^x (1 - \pi)^{N-x}$
 
 ### Poisson
 The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
@@ -31,12 +31,12 @@ The Poisson distribution can be used to calculate the probabilities of various n
 * The Poisson distribution can be used to calculate the probabilities of various number of "successes" based on the mean number of successes.
     - Independent Random Events could include calls coming to a Call Centre or cars coming to a roundabout.
 
-[Poisson formula](img/poisson-formula.png)
+$p = \frac{e^{-\mu} \mu^x}{x!}$
 
 ### Hypergeometric
 The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
 
-[Hypergeometric formula](img/hypergeometric-formula.png)
+$\frac{(_kC_x) ( _{(N-k)}C _{(n-x)})}{_NC_n}$
 
 p is the probability of obtaining k successes. k is the number of "successes" in the population. x is the number of "successes" in the sample. Uppercase N is the size of the population. Lowercase n is the number sampled. kCx is the number of combinations k things taken x at a time.
 
