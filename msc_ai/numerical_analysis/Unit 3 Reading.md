@@ -52,8 +52,6 @@ The `tidyverse` package is an "umbrella-package" that installs `tidyr`, `dplyr`,
 * `dplyr` is a package for making tabular data manipulation easier
 * `tidyr` enables converting between different data formats for plotting and analysis
 
-#### dplyr
-
 `select()` - Subset columns (`select(dataframe, SAMPLEID, DP)` selects SAMPLEID and DP columns and `select(dataframe, -CHROM)` selects all columns minus the CHROM column)
 
 `filter()` - Subset rows on conditions (`filter(dataframe, SAMPLEID == "SRR2584863")` filters all rows where `SAMPLEID` is `"SRR2584863"`)
