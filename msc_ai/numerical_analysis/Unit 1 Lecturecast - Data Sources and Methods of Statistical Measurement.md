@@ -37,8 +37,8 @@ Rather, "statistics" refers to a range of techniques and procedures for analysin
 
 * Variance
     - Used in conjunction with the Mean.
-    - [Population variance formula](img/variance-population.png)
-    - [Sample variance formula](img/variance-sample.png)
+    - $\sigma^2 = \sum{(x - \mu)^2} / n$
+    - $S^2 = \sum{(X - \bar{x})^2} / {n - 1}$
 
 * Standard Deviation;
     - Used in conjunction with the Mean.
