@@ -19,6 +19,20 @@ Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s g
               v         n
 ```
 
+`fitdistrplus::fitdist()` - `dnorm`, `dpois`, `dgamma`
+
+`> quantile(x = 0:10, probs = 0.5)`
+
+quartiles - 4 parts
+deciles - 10 parts
+percentiles - 100 parts
+
+`> quantile(x = 0:10, probs = seq(0.01, 0.99, by = 0.01))` - Percentiles calculation
+
+The null hypothesis (H0) assumes no effect, no difference between groups or no relationship between variables.
+
+The alternative hypothesis (HA) assumes an effect, a difference of some sort or a relationship between variables.
+
 ## Types of Sampling Methods (4.1)
 
 Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: https://www.youtube.com/watch?v=pTuj57uXWlk (Accessed: December 8, 2025).
