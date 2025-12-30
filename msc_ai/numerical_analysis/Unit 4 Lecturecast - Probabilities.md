@@ -21,7 +21,7 @@ Probabilities can be drawn from symmetrical outcomes or in terms of relative fre
 ### Binomial
 * Fixed number of events, e.g. yes or no, 'success' and 'failure'.
 * Events are independent.
-* Events can be repeated using identical conditions.
+* Events are repeated using identical conditions (because they are independent, the outcome of one event does not help predict the outcome of the other event).
 
 $P(x) = \frac{N!}{x!(N - x)!} \pi^x (1 - \pi)^{N-x}$
 
@@ -33,8 +33,10 @@ The Poisson distribution can be used to calculate the probabilities of various n
 
 $p = \frac{e^{-\mu} \mu^x}{x!}$
 
+e is the base of natural logarithms (2.7183). $\mu$ is the mean number of "successes", events or occurences. x is the number of "successes", events or occurences in question.
+
 ### Hypergeometric
-The hypergeometric distribution is used to calculate probabilities when sampling without replacement.
+The hypergeometric distribution is used to calculate probabilities when sampling **without replacement**.
 
 $p = \frac{(_kC_x) ( _{(N-k)}C _{(n-x)})}{_NC_n}$
 
@@ -56,35 +58,3 @@ The most common probability distribution for describing a continuous random vari
 This is often concerned with the amount of time until some specific event occurs.
 
 * the amount of time, in months a car battery lasts.
-
-## Types of sampling
-
-* Biased samples
-    - Convenience sample - only includes people who are easy to reach
-	- Voluntary response sample - consists of people that have chosen to include themselves
-
-* Unbiased sample
-	- Simple random sampling
-	- Stratified random sampling
-	- Multistage sampling
-
-Simple Learning Pro (2015) *Types of Sampling Methods (4.1)*. Available at: https://www.youtube.com/watch?v=pTuj57uXWlk (Accessed: December 8, 2025).
-
-## Probability distributions
-
-[Continous and descrete distributions](img/continuous-and-discrete-distributions.png) - Bader, Martin. and Leuzinger, Sebastian. (2024) *R-ticulate : a beginner’s guide to data analysis for natural scientists*. John Wiley & Sons, Inc.
-
-```
-      sample mean - assumed population mean
-      -------------------------------------
-            sample standard deviation
-  t =		-------------------------
-			         /-----
-                    v   n
-```
-```
-                 /-------------
-  Variance =    /  p - (1 - p)
-               /   -----------
-              v         n
-```
