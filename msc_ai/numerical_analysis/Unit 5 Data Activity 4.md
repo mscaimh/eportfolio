@@ -1,12 +1,12 @@
 ## Create a bar chart showing the frequency of COVID-19 reports by state/union territory
 
 ```
-> df %>%
-+     dplyr::mutate(TotalCases = ConfirmedIndianNational + ConfirmedForeignNational) %>%
-+     ggplot2::ggplot(aes(`State/UnionTerritory`, TotalCases)) +
-+         geom_col() +
-+         labs(title = "Frequency of COVID-19 reports by state/union territory") + 
-+         theme(axis.text.x=element_text(angle = -90, hjust = 0))
+df %>%
+  dplyr::mutate(TotalCases = ConfirmedIndianNational + ConfirmedForeignNational) %>%
+  ggplot2::ggplot(aes(`State/UnionTerritory`, TotalCases)) +
+  geom_col() +
+  labs(title = "Frequency of COVID-19 reports by state/union territory") +
+  theme(axis.text.x=element_text(angle = -90, hjust = 0))
 ```
 
 ![Plot](img/unit5-plot1.png)
@@ -18,16 +18,36 @@ There are no built-in `geom` within ggplot2 for creating pie charts. The below a
 *ggplot2 Piechart* (no date). Available at: https://r-graph-gallery.com/piechart-ggplot2.html (Accessed: January 1, 2026)
 
 ```
-> dfnew <- data.frame(col = c("ConfirmedIndianNational", "ConfirmedForeignNational"),
-+                     val = c(sum(df$ConfirmedIndianNational), sum(df$ConfirmedForeignNational)))
-> 
-> dfnew %>% ggplot2::ggplot(aes("", val, fill = col)) +
-+     geom_bar(stat = "identity", width = 1) +
-+     coord_polar("y", start = 0)
+dfnew <- data.frame(col = c("ConfirmedIndianNational", "ConfirmedForeignNational"),
+                    val = c(sum(df$ConfirmedIndianNational), sum(df$ConfirmedForeignNational)))
+
+dfnew %>% ggplot2::ggplot(aes("", val, fill = col)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0)
 ```
 
 ![Plot](img/unit5-plot2.png)
 
 ## Create a histogram showing the distribution of recovery numbers
 
+```
+df %>% ggplot2::ggplot(aes(x = Cured)) +
+  geom_histogram() +
+  labs(title = "Histogram showing distribution of recovery numbers")
+```
+
+![Plot](img/unit5-plot3.png)
+
 ## Create a line chart showing the trend of total cases over time
+
+```
+df %>% dplyr::mutate(Date = as.Date(Date, format = "%d-%m-%Y")) %>%
+  dplyr::mutate(TotalCases = ConfirmedIndianNational + ConfirmedForeignNational) %>%
+  ggplot2::ggplot(aes(Date, TotalCases)) +
+    geom_line() +
+  geom_smooth(method = "lm", aes(colour = "red")) +
+  theme_bw() +
+  labs(title = "Line chart with trend line")
+```
+
+![Plot](img/unit5-plot4.png)
