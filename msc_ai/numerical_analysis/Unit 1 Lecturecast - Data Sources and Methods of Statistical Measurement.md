@@ -2,7 +2,7 @@ Statistics are not just facts and figures. They are more than that.
 
 Rather, "statistics" refers to a range of techniques and procedures for analysing, interpreting, displaying, and making decisions based on data.
 
-[Reference image](img/descriptive-and-inferential-stats.png) - Market Research Guy (2021) *Types of Data & Measurement Scales: Nominal, Ordinal, Interval and Ratio.* Available at: https://www.mymarketresearchmethods.com/types-of-data-nominal-ordinal-interval-ratio/ (Accessed: December 12, 2025).
+[Reference image](img/descriptive-and-inferential-stats.png)
 
 ## Scales of measurement
 * Nominal scales - Gender, colour, religion
@@ -10,7 +10,7 @@ Rather, "statistics" refers to a range of techniques and procedures for analysin
 * Interval - Temperature
 * Ratio - Money - Has a "true zero point"
 
-[Reference image](img/summary-of-data-types-and-scales.png)
+[Reference image](img/summary-of-data-types-and-scales.png) - Market Research Guy (2021) *Types of Data & Measurement Scales: Nominal, Ordinal, Interval and Ratio.* Available at: https://www.mymarketresearchmethods.com/types-of-data-nominal-ordinal-interval-ratio/ (Accessed: December 12, 2025).
 
 ## Measures of location
 
