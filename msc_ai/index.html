@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maha Hegde's ePortfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Calibri, sans-serif;
+            background-color: #333333;
+            color: white;
+        }
+        
+        .main-table {
+            width: 900px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        
+        .border-column {
+            width: 50px;
+            background-color: transparent;
+        }
+        
+        .content-column {
+            width: 800px;
+            background-color: #444444;
+            padding: 30px;
+            vertical-align: top;
+        }
+        
+        h1 {
+            color: white;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #B8860B;
+            padding-bottom: 10px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #B8860B;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: #B8860B;
+            color: white;
+        }
+        
+        h2 {
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            line-height: 1.6;
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        ul {
+            color: white;
+            line-height: 1.6;
+        }
+        
+        .file-links {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .file-links li {
+            margin-bottom: 10px;
+        }
+        
+        .file-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-left: 3px solid #B8860B;
+            background-color: #555555;
+            display: block;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .file-links a:hover {
+            background-color: #666666;
+            border-left-color: #DAA520;
+        }
+        
+        .collapsible {
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .collapsible:hover {
+            color: #DAA520;
+        }
+        
+        .toggle-icon {
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        .collapsible-content {
+            max-height: 1000px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .collapsible-content.collapsed {
+            max-height: 0;
+        }
+        
+        .contact-info {
+            background-color: #555555;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <tr>
+            <td class="border-column"></td>
+            <td class="content-column">
+                <div class="header-container">
+                    <h1>Maha Hegde's ePortfolio</h1>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mahahegde" target="_blank">LinkedIn</a>
+                        <a href="https://www.goodreads.com/emecheon" target="_blank">Goodreads</a>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2>About Me</h2>
+                    <p>Welcome to my ePortfolio. I maintain notes and summaries of my work as part of my ongoing MSc Artificial Intelligence course.</p>
+                </div>
+                
+                <div class="section">
+                    <h2 class="collapsible collapsed" onclick="toggleSection('numerical-analysis')">Numerical Analysis <span class="toggle-icon">+</span></h2>
+                    <div id="numerical-analysis" class="collapsible-content collapsed">
+                        <ul class="file-links">
+                            <li><a href="numerical_analysis/Unit 1 Data Activity 1.md">Unit 1 Data Activity 1</a></li>
+                            <li><a href="numerical_analysis/Unit 1 Lecturecast - Data Sources and Methods of Statistical Measurement.md">Unit 1 Lecturecast - Data Sources and Methods of Statistical Measurement</a></li>
+                            <li><a href="numerical_analysis/Unit 1 Lecturecast - Introduction to R.md">Unit 1 Lecturecast - Introduction to R</a></li>
+                            <li><a href="numerical_analysis/Unit 2 Data Activity 2.md">Unit 2 Data Activity 2</a></li>
+                            <li><a href="numerical_analysis/Unit 2 Lecturecast - Data Structures in R.md">Unit 2 Lecturecast - Data Structures in R</a></li>
+                            <li><a href="numerical_analysis/Unit 2 Seminar - Understanding Descriptive Statistics.md">Unit 2 Seminar - Understanding Descriptive Statistics</a></li>
+                            <li><a href="numerical_analysis/Unit 3 Data Activity 3.md">Unit 3 Data Activity 3</a></li>
+                            <li><a href="numerical_analysis/Unit 3 Lecturecast - Data Management in R.md">Unit 3 Lecturecast - Data Management in R</a></li>
+                            <li><a href="numerical_analysis/Unit 3 Reading.md">Unit 3 Reading</a></li>
+                            <li><a href="numerical_analysis/Unit 4 Lecturecast - Probabilities.md">Unit 4 Lecturecast - Probabilities</a></li>
+                            <li><a href="numerical_analysis/Unit 4 Reading.md">Unit 4 Reading</a></li>
+                            <li><a href="numerical_analysis/Unit 4 Seminar - The Role of Probability in Statistics.md">Unit 4 Seminar - The Role of Probability in Statistics</a></li>
+                            <li><a href="numerical_analysis/Unit 5 Data Activity 4.md">Unit 5 Data Activity 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="collapsible" onclick="toggleSection('intelligent-agents')">Intelligent Agents <span class="toggle-icon">-</span></h2>
+                    <div id="intelligent-agents" class="collapsible-content">
+                        <p>Content will be added as we progress through the module.</p>
+                    </div>
+                </div>
+            </td>
+            <td class="border-column"></td>
+        </tr>
+    </table>
+    
+    <script>
+        function toggleSection(sectionId) {
+            const content = document.getElementById(sectionId);
+            const header = content.previousElementSibling;
+            const icon = header.querySelector('.toggle-icon');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                header.classList.remove('collapsed');
+                icon.textContent = '-';
+            } else {
+                content.classList.add('collapsed');
+                header.classList.add('collapsed');
+                icon.textContent = '+';
+            }
+        }
+    </script>
+</body>
+</html>
