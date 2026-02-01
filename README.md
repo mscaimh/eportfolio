@@ -1,9 +1,5 @@
 # Maha Hegde's ePortfolio
 
----
-
-## About Me
-
 Welcome to my ePortfolio. I maintain notes and summaries of my work as part of my ongoing MSc Artificial Intelligence course.
 
 ## Numerical Analysis
