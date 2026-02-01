@@ -20,7 +20,7 @@ Welcome to my ePortfolio. I maintain notes and summaries of my work as part of m
 
 ## Intelligent Agents
 
-Content will be added as we progress through the module.
+- [Unit 1 Lecturecast - Introduction to Agent-based Computing](msc_ai/intelligent_agents/Unit%201%20Lecturecast%20-%20Introduction%20to%20Agent-based%20Computing.md)
 
 <br><br><br><br><br><br><br><br><br><br>
 
