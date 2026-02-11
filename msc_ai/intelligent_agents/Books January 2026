@@ -1,0 +1,69 @@
+## AI Snake Oil
+##### What Artificial Intelligence Can Do, What It Can’t, and How to Tell the Difference
+##### Arvind Narayanan, Sayash Kapoor
+
+A rather strict assessment of AI. Sounds negative take to some extent, but very good exploration of predictive AI, generative AI, and moderation AI.
+
+Explains the GPT concept nicely - generative, pre-training, transformer.
+
+## Co-Intelligence
+##### Living and Working with AI
+##### Ethan Mollick
+
+One of the best guides on working with AI.
+
+- Invite AI to the table
+- Be the human in the loop
+- Treat AI like a person, but tell it what kind of person it should be
+- Assume this is the worst AI you will ever use
+
+Theory of mind.
+
+Just me tasks, delegation tasks, automation tasks
+
+Centaur vs cyborg
+
+## Artificial Intelligence - A Guide for Thinking Humans
+##### Melanie Mitchell
+
+Provides a counter view to Ray Kurzweil's optimistic AI viewpoint.
+
+But seems rather negative for negativity's sake in few areas. For example, the author talks about ChatGPT not being able to describe "sentiment" within below picture - while it may be true at the point of writing the book, fails the test of time. Also, the author gets stuck with AI not being able to "think", "feel", and "understand" like humans - again true but can be contested by the mechanism-vs-manifestation logic on how to view AI.
+
+![Continous and descrete distributions](img/chatgpt-prompt.jpg)
+
+## The Singularity is Nearer
+##### When We Merge with AI.
+##### Ray Kurzweil
+
+Not as good as How to Create a Mind.
+
+An optimistic view of AI future.
+
+## The Coming Wave
+##### AI, Power and Our Future
+##### Mustafa Suleyman
+
+A rather dystopian prediction on AI's future.
+
+## AI Superpowers
+##### China, Silicon Valley, and the New World Order
+##### Kai-Fu Lee
+
+AlphaGo's defeat of Lee Sedol
+
+China's Sputnik moment
+
+How China's and Silicon Valley's AI strategies compare.
+
+## How to Create a Mind
+##### The Secret of Human Thought Revealed
+##### Ray Kurzweil
+
+Human neurons, dendrites, axons, learning, ... ..., and similarity with AI neural networks.
+
+## God, Human, Animal, Machine
+##### Technology, Metaphor, and the Search for Meaning
+##### Meghan O'Gieblyn
+
+Discusses how metaphors of human thinking, from religions to AI, follow similar patterns.
